@@ -1,0 +1,25 @@
+.control{
+  width: 700px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.container-color{ 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.color {
+  flex: 1;
+  border-left: 1px solid black;
+}
+
+
+.color:hover {
+  cursor: pointer;
+}
